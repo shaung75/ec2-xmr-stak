@@ -6,4 +6,4 @@ cd xmr-stak/build
 cmake .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make install
 cd bin
-./xmr-stak -currency monero -o xmrpool.eu:3333 -u 41neyamL4393wWmKAEUryViAkdKC9bjgYep4ahVAqSpWfC5Be717UC8NKKQGTQgaz3XbFoaQS7Cb9hZ1sBANKUVY93QM5qF -p x
+./xmr-stak --currency monero -o xmrpool.eu:3333 -u 41neyamL4393wWmKAEUryViAkdKC9bjgYep4ahVAqSpWfC5Be717UC8NKKQGTQgaz3XbFoaQS7Cb9hZ1sBANKUVY93QM5qF -p x
